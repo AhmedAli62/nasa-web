@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- bootstrap navbar start here -->
+  <nav>
+    <img class="imgbg" src="Screenshot.png" alt="">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"> GALAXYGUIDE</label>
+    <ul>
+      <li><a class="active" href="#">Who We Are</a></li>
+      <li><a href="#">WHAT WE DO</a></li>
+      <li><a href="#">PARTNER WITH US</a></li>
+      <li><a href="#">CAREERS</a></li>
+      <li><a href="#">RESOURSEC</a></li>
+    </ul>
+  </nav>
+  <!-- bootstrap navbar end here -->
+
+
+
+  <!-- slider start here -->
+  <div class="slider">
+    <!-- list Items -->
+    <div class="list">
+      <div class="item active">
+        <img style="border-radius: 25px;" src="https://www.twz.com/wp-content/uploads/2022/10/06/V2-Germany.jpg">
+        <div class="content">
+          <p>Articles</p>
+          <h2 style="font-size: 35px; width: 620px;">A Brief History <br> of Space Exploration</h2>
+          <p>
+            The development of ballistic missiles, first used by Germany toward the end of World War II, paved the way
+            for the launch vehicles that would fuel a space race between the Soviet Union and the United States. The
+            space race was then followed by an era of space cooperation, highlighted by the International Space Station.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img style="border-radius: 25px;"
+          src="https://aerospace.org/sites/default/files/inline-images/337001main_pg14_as12-49-7278_full-LG_0.jpg">
+        <div class="content">
+          <p>Articles</p>
+          <h2 style="font-size: 50px;">Landing On The Moon</h2>
+          <p>
+            On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the
+            Moon. Armstrong’s famous words, "That's one small step for man, one giant leap for mankind," marked this
+            historic achievement. This mission symbolized a significant milestone in space exploration.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img style="border-radius: 25px;"
+          src="https://aerospace.org/sites/default/files/inline-images/shuttle_sts120-LG_0.jpg">
+        <div class="content">
+          <p>Articles</p>
+          <h2 style="font-size: 50px;">Space Shuttle</h2>
+          <p>
+            The Space Shuttle was NASA's partially reusable spacecraft system, operational from 1981 to 2011, enabling
+            human spaceflight and satellite deployment. It played a crucial role in constructing the International Space
+            Station (ISS).
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img style="border-radius: 25px;"
+          src="https://aerospace.org/sites/default/files/styles/large_embed/public/2019-05/iss.jpg?itok=MoDlPfKz">
+        <div class="content">
+          <p>Articles</p>
+          <h2 style="font-size: 50px;">International Space Station </h2>
+          <p>
+
+            The International Space Station (ISS) is a collaborative space laboratory involving multiple countries,
+            orbiting Earth since 1998. It serves as a hub for scientific research and international cooperation in space
+            exploration.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img style="border-radius: 25px;"
+          src="https://aerospace.org/sites/default/files/styles/medium/public/2019-04/orion_0.jpg?itok=ouIbXPW3">
+        <div class="content">
+          <p>Articles</p>
+          <h2 style="font-size: 50px;">The Future Of Space Exploration</h2>
+          <p>
+            The future of space exploration involves advanced missions to Mars, lunar bases, and increased international
+            collaboration. Innovations like reusable rockets and space tourism are also expected to play significant
+            roles.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    < <!-- button arrows -->
+      <div class="arrows">
+        <button id="prev">
+          << <button id="next">>
+        </button>
+      </div>
+      <!-- thumbnail -->
+      <div class="thumbnail">
+        <div class="item active">
+          <img style="filter: opacity(50%); ;" src="https://www.twz.com/wp-content/uploads/2022/10/06/V2-Germany.jpg">
+          <div style="color: rgb(255, 255, 255);" class="content">
+            A Brief History of Space Exploration
+          </div>
+        </div>
+        <div class="item">
+          <img style="filter: opacity(50%); ;"
+            src="https://aerospace.org/sites/default/files/inline-images/337001main_pg14_as12-49-7278_full-LG_0.jpg">
+          <div class="content">
+            Landing On The Moon
+          </div>
+        </div>
+        <div class="item">
+          <img style="filter: opacity(50%); ;"
+            src="https://aerospace.org/sites/default/files/inline-images/shuttle_sts120-LG_0.jpg">
+          <div class="content">
+            Space Shuttle
+          </div>
+        </div>
+        <div class="item">
+          <img style="filter: opacity(50%); ;"
+            src="https://aerospace.org/sites/default/files/styles/large_embed/public/2019-05/iss.jpg?itok=MoDlPfKz">
+          <div class="content">
+            International Space Station
+          </div>
+        </div>
+        <div class="item">
+          <img style="filter: opacity(50%); ;"
+            src="https://aerospace.org/sites/default/files/styles/medium/public/2019-04/orion_0.jpg?itok=ouIbXPW3">
+          <div class="content">
+            The Future Of Space Exploration
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="app.js"></script>
+  <!--slider end here  -->
+
+
+  <!-- Featured News start here -->
+  <div class="FeaturedNews">
+    <h1 class="featuredh1">Featured News</h1>
+    <div class="featuredimgdiv1">
+      <h2 class="featuredh2">NASA Sets Coverage <br> for Northrop Grumman’s <br> 21st Station Resupply Launch</h2>
+      <h3 class="featuredh3">News Release</h3>
+      <img class="featuredimg1"
+        src="https://www.nasa.gov/wp-content/uploads/2024/07/cygnus-cargo-spacecraft.jpg?resize=1024,683" alt="">
+
+      <h2 class="featuredh22">NASA Shares its SpaceX <br> Crew-10 Assignments <br> for Space Station Mission</h2>
+      <h3 class="featuredh31">News Release</h3>
+      <img class="featuredimg2"
+        src="https://www.nasa.gov/wp-content/uploads/2024/08/jsc2024e034372-alt.jpg?resize=1024,683" alt="">
+    </div>
+    <br>
+    <div class="featuredimgdiv2">
+      <h2 class="featuredh24">Repair Kit for NASA’s <br> NICER Mission Heading to <br> Space Station</h2>
+      <h3 class="featuredh32">News Release</h3>
+      <img class="featuredimg3" src="https://science.nasa.gov/wp-content/uploads/2024/07/nicer-studio-12.jpg" alt="">
+      <h2 class="featuredh233">NASA Shares its SpaceX <br> Crew-10 Assignments <br> for Space Station Mission</h2>
+      <h3 class="featuredh322">News Release</h3>
+      <img class="featuredimg4"
+        src="https://www.nasa.gov/wp-content/uploads/2024/07/grc-2023-c-09651.jpg?resize=1024,683" alt="">
+    </div>
+  </div>
+  </div>
+
+  <!-- featuredh video start here -->
+  <div class="video">
+    <p id="para">Featured Video</p>
+
+    <h1 id="parah1">Turning Up the Heat</h1>
+
+    <p id="mainpara">In the latest episode of Surprisingly STEM, shape memory metal engineer Othmane Benafan irons out
+      the details of how he creates alloys that can bend, stretch, and twist when heat is applied, and how this
+      technology is turning up the heat on what’s possible for NASA missions.</p>
+
+    <iframe class="iframevideo" width="560" height="315"
+      src="https://www.youtube.com/embed/hNa4hz-HP9M?si=UEt_5F9r3rgHjBlW" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <a id="link1" href="https://plus.nasa.gov/series/surprisingly-stem/">Discover More Unexpected Jobs at NASA ⬈</a>
+  </div>
+  <!-- Featured News start here -->
+
+  <!-- Space to Learn start here -->
+
+  <div class="container">
+    <h1 class="text">Space to Learn</h1>
+    <a href="https://www.nasa.gov/learning-resources/">
+      <h1 class="text2">More to Explore ⬈</h1>
+    </a>
+    <h2 class="texth2">For kids and <br> student ⬈</h2>
+    <h2 id="texth3">For Educators <br> student ⬈</h2>
+    <h2 id="texth4">For colleges <br> and ⬈ <br>universities student </h2>
+    <h2 id="texth5">For <br> professionals ⬈</h2>
+    <div class="box"><a href="https://www.nasa.gov/learning-resources/for-kids-and-students/"><img
+          src="https://www.nasa.gov/wp-content/uploads/2023/02/astro-camp.jpg?resize=1024,768" alt=""></a></div>
+    <div class="box"><a href="https://www.nasa.gov/learning-resources/for-educators/"><img
+          src="https://www.nasa.gov/wp-content/uploads/2023/02/35531721390-3136bfcbc0-new.png?resize=1024,672"
+          alt=""></a></div>
+    <div class="box"><a href="https://www.nasa.gov/learning-resources/colleges-and-universities/"><img
+          src="https://www.nasa.gov/wp-content/uploads/2022/11/52144731374_4bceb0eb02_o.jpg?resize=1024,734" alt=""></a>
+    </div>
+    <div class="box"><a href="https://www.nasa.gov/learning-resources/for-professionals/"><img
+          src="https://www.nasa.gov/wp-content/uploads/2021/07/ksc-20210707-ph-fmx01_0146.jpg?resize=1024,683"
+          alt=""></a></div>
+  </div>
+
+  <!-- Space to Learn end here -->
+
+
+  <!-- Earth Information Center start here -->
+
+  <div class="bg">
+    <h1 class="bgh1">Earth Information Center</h1>
+    <p class="pp">For more than 50 years, NASA satellites have provided data on Earth's land, water, air, temperature,
+      and climate. NASA's Earth Information Center allows visitors to see how our planet is changing in six key areas:
+      sea level rise and coastal impacts, health and air quality, wildfires, greenhouse gases, sustainable energy, and
+      agriculture.</p>
+    <a href="">
+      <h2 class="bgh2">Start Exploring ↗</h2>
+    </a>
+    <img src="https://www.nasa.gov/wp-content/uploads/2024/07/ccfid-309003-eughtmileb-waus-lrg.jpg?resize=1536,1022"
+      alt="">
+  </div>
+  <!-- Earth Information Center end here -->
+
+
+  <!-- Image Of The Day start here -->
+
+  <div class="container3">
+    <h5 class="texth5">Today</h5>
+    <h1 id="texth1">Image Of The Day</h1>
+    <h2 id="texth2">Artemis II Core Stage Arrives at <br> Kennedy</h2>
+
+    <p id="pp">Employees from NASA’s Kennedy Space Center in Florida watch as teams with Exploration Ground Systems
+      transport the agency’s powerful SLS (Space Launch System) core stage to the spaceport’s Vehicle Assembly Building
+      on Wednesday, July 24, 2024. The 212-foot-long rocket stage completed its journey from NASA’s Michoud Assembly
+      Facility in New Orleans aboard the Pegasus barge the previous day. Once inside, SLS will be prepared for
+      integration atop the mobile launcher ahead of the Artemis II launch.</p>
+    <strong>
+      <h1 id="texth12">More NASA Images ⬇</h1>
+    </strong>
+    <!-- nasa web link text start here -->
+    <a href="https://www.nasa.gov/gallery/wildlife-birds/"><b>
+        <h1 id="texth13">Wildlife Birds gallery ➜ </h1>
+      </b></a>
+    <a href="https://www.nasa.gov/gallery/wildlife-birds/"><b>
+        <h1 id="texth14">Wildlife Reptiles Gallery ➜ </h1>
+      </b></a>
+    <a href="https://www.nasa.gov/image-detail/afs-8-101-592/">
+      <h2 id="texth22">View image ➜</h2>
+    </a>
+    <!-- nasa web link text end here -->a
+    <a href="https://www.nasa.gov/image-detail/afs-8-101-592/"><img
+        src="https://www.nasa.gov/wp-content/uploads/2024/08/ksc-20240724-ph-kls02-0167orig.jpg?resize=1536,1024"
+        alt=""></a>
+    <!-- nasa web link text start here -->
+    <a href="https://www.nasa.gov/image-of-the-day/">
+      <h3 id="texth33">Browse Image Archive ↗</h3>
+    </a>
+    <!-- nasa web link text end here -->
+
+    <!-- 4 img box  -->
+    <div id="box1">
+      <h3 id="texth34"></h3>
+      <a href="https://www.nasa.gov/gallery/wildlife-birds/">
+        <img style="height: 200px;"
+          src="https://images-assets.nasa.gov/image/2011-7185/2011-7185~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+          alt="">
+        <img id="boximg2" style="height: 95px;"
+          src="https://images-assets.nasa.gov/image/KSC-2009-2851/KSC-2009-2851~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+          alt="">
+        <img id="boximg3" style="height: 95px;"
+          src="https://images-assets.nasa.gov/image/KSC-20161213-PH_SWW01_0002/KSC-20161213-PH_SWW01_0002~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+          alt=""></a>
+          <!-- secont 4 img box -->
+          <a class="main" href="https://www.nasa.gov/gallery/wildlife-birds/">
+            <img class="boximg7" style="height: 200px;"src="https://images-assets.nasa.gov/image/KSC-20210121-PH-JBS01_0079/KSC-20210121-PH-JBS01_0079~large.jpg?w=1536&h=1199&fit=crop&crop=faces%2Cfocalpoint"alt="">
+            <img id="boximg5" style="height: 95px;"
+            src="https://images-assets.nasa.gov/image/KSC-20170104-PH_SWW01_0003/KSC-20170104-PH_SWW01_0003~large.jpg?w=1536&h=1024&fit=crop&crop=faces%2Cfocalpoint"
+            alt="">
+            <img id="boximg6" style="height: 100px;"
+            src="https://images-assets.nasa.gov/image/KSC-08pd0575/KSC-08pd0575~large.jpg?w=1536&h=1152&fit=crop&crop=faces%2Cfocalpoint"
+            alt=""></a>
+          </div>
+        </div>
+        <a href="https://www.nasa.gov/gallery/wildlife-birds/"> <img class="img33" src="3img.png" alt=""></a>
+        
+
+
+  <!-- Image Of The Day end here -->
+
+
+  <!-- Explore the Universe from your Inbox start here -->
+<div class="container4">
+  <strong><h1 class="texth17">Explore the <br> Universe from <br> your Inbox</h1></strong>
+  <p class="pp2">Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond. We will never share your email address.</p>
+  <img id="bgimg" src="https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199" alt="">
+</div>
+<!-- Explore the Universe from your Inbox end here -->
+
+<!-- More Topics from NASA start here -->
+<div class="parent">
+  <h1  id="text1"> <strong> MISSION </strong></h1>
+  <div class="child"> <img class="img1" src="https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1024,576" alt=""> </div>
+<h1 id="text22"> <strong> HUMAN <br> IN SAPCE </strong></h1>
+  <div class="child"> <img class="img2" src="https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg" alt=""> </div>
+<h1 id="text3"> <strong> CLIMATE <br>CHANGE </strong></h1>
+  <div class="child"> <img class="img3" src="https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp" alt=""> </div>
+<h1 id="text4"> <strong> OUR SOLAR <br> SYSTEM </strong></h1>
+  <div class="child"> <img class="img4" src="https://smd-cms.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg" alt=""> </div>
+<h1 id="text5"> <strong> UNIVERSE </strong></h1>
+  <div class="child"> <img class="img5" src="https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg" alt=""> </div>
+<h1 id="text6"> <strong> SCIENCE <br> NEWS </strong> </h1>
+  <div class="child"> <img class="img6" src="https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png " alt=""> </div>
+</div>
+<!-- More Topics from NASA end here -->
+
+
+<!-- flowbite footer start here -->
+
+<footer class="bg-black dark:bg-gray-900">
+  <div class="mx-auto w-full max-w-screen-xl">
+    <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class=" hover:underline">About</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Careers</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Brand Center</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Blog</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Discord Server</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Twitter</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Facebook</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Contact Us</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Licensing</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">iOS</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Android</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Windows</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">MacOS</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+      </span>
+      <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+          <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                      <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                  </svg>
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                      <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+                  </svg>
+                <span class="sr-only">Discord community</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                  <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+              </svg>
+                <span class="sr-only">Twitter page</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                </svg>
+                <span class="sr-only">GitHub account</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+              </svg>
+                <span class="sr-only">Dribbble account</span>
+            </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- flowbite footer end here -->
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+
+</html>
