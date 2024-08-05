@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Ahmed Ali
 #### I am GitHub Readme Generator's creator
-![https://github.com/AhmedAli62/nasa-web/blob/main/Screenshot%20(1).png)
+![https://i.postimg.cc/BvMd9dFB/Untitled-1.jpg)
 
 Hey, I'm Ahmed Web and Mobile Developer, 
 Proficient in html/css/javascript
