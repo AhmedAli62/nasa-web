@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Ahmed Ali
 #### I am GitHub Readme Generator's creator
-![https://i.postimg.cc/BvMd9dFB/Untitled-1.jpg)
+![I am GitHub Readme Generator's creator](https://i.postimg.cc/BvMd9dFB/Untitled-1.jpg)
 
 Hey, I'm Ahmed Web and Mobile Developer, 
 Proficient in html/css/javascript
@@ -15,5 +15,4 @@ Skills: JS / HTML / CSS
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedAli62)](https://github.com/anuraghazra/github-readme-stats)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=AhmedAli62&show_icons=true)  
-
 
